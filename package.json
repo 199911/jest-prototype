@@ -1,0 +1,14 @@
+{
+  "name": "jest-prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:199911/jest-prototype.git",
+  "author": "Ku Lok Sun <sundaykuloksun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
