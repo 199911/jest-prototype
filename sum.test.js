@@ -16,5 +16,15 @@ describe('sum()', () => {
         expect(sum(a, b)).toBeGreaterThan(a);
       });
     });
+
+    describe('when b is positive', () => {
+      beforeEach(() => {
+        b = -1;
+      });
+
+      test('should return a smaller number', () => {
+        expect(sum(a, b)).toBeLessThan(a);
+      });
+    });
   });
 });
