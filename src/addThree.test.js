@@ -1,6 +1,6 @@
 const addThree = require('./addThree.js');
 
-describe('sum()', () => {
+describe('addThree()', () => {
   let num;
   describe('when num is integer', () => {
     beforeEach(() => {
